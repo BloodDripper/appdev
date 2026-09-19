@@ -13,7 +13,7 @@ class StudyRecommendation{
         }
         else if 
             ("focused".equalsIgnoreCase(mood)){
-                System.out.println("Recommendation: Study a difficult topice for 45 minutes.");
+                System.out.println("Recommendation: Study a difficult topics for 45 minutes.");
             }
         else if 
             ("bored".equalsIgnoreCase(mood)){
@@ -21,7 +21,7 @@ class StudyRecommendation{
             }
         else if 
             ("stressed".equalsIgnoreCase(mood)){
-                System.out.println("Recommendation: Take deep breaths and study one small topic at a time.");
+                System.out.println("Recommendation: Take deep breath and study one small topic at a time.");
             }
         else{ System.out.println("Recommendation:Start with a quick 20-minute review.");
             }
